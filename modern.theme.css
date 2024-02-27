@@ -1,3 +1,5 @@
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/UsrBgs.css");
+@import url("https://AlexisJonsson.github.io/BetterDiscordAddons/Themes/modern-discord.theme.source.css");
 @import url("https://onkofonko.github.io/theme/fixedsource.css");
 @import url("https://onkofonko.github.io/theme/fixes.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
@@ -9,13 +11,10 @@
     --username-button-right-margin: 12px; /* Width between the username button and the window controls */
 
     /*Server List*/
-    --server-icon-size: 32px;  /* Size of the server icons */
+    --server-icon-size: 28px;  /* Size of the server icons */
     --server-outer-margin: 14px;  /* Spacing between the edge of the container and the server icons.*/
-    --server-spacing: 10px;  /* Spacing between each server icon*/
+    --server-spacing: 6px;  /* Spacing between each server icon*/
 
     /*Server Info Bar*/
-    --app-info-bar-height: 48px; /* Height for container that holds the server name, info, actions and search */
-}
-.panels-3wFtMD {
-    margin-bottom: 55px
+    --app-info-bar-height: 40px; /* Height for container that holds the server name, info, actions and search */
 }
