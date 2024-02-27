@@ -1,5 +1,3 @@
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/UsrBgs.css");
-@import url("https://AlexisJonsson.github.io/BetterDiscordAddons/Themes/modern-discord.theme.source.css");
 @import url("https://onkofonko.github.io/theme/fixedsource.css");
 @import url("https://onkofonko.github.io/theme/fixes.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
@@ -13,8 +11,18 @@
     /*Server List*/
     --server-icon-size: 32px;  /* Size of the server icons */
     --server-outer-margin: 14px;  /* Spacing between the edge of the container and the server icons.*/
-    --server-spacing: 10px;  /* Spacing between each server icon*/
+    --server-spacing: 8px;  /* Spacing between each server icon*/
 
     /*Server Info Bar*/
     --app-info-bar-height: 40px; /* Height for container that holds the server name, info, actions and search */
+
+    --server-container:calc(var(--server-size) + (var(--server-outer-margin, 14px) + 5px)) !important;
+}
+
+#app-mount .guilds__2b93a [class*=expandedFolderBackground] {
+    left: 5px !important;
+    transform: unset !important;
+}
+#app-mount .guilds__2b93a [class*=listItem]:not([class*=listItemWrapper]) {
+    margin:0px 5px;
 }
