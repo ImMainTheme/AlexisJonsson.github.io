@@ -19,11 +19,11 @@
     --server-container:calc(var(--server-size) + (var(--server-outer-margin, 14px) + 5px)) !important;
 }
 
-#app-mount .wrapper_bc7085 [class*=expandedFolderBackground] {
+#app-mount .guilds_a4d4d9 [class*=expandedFolderBackground] {
     left: 5px !important;
     transform: unset !important;
 }
-#app-mount .wrapper_bc7085 [class*=listItem]:not([class*=listItemWrapper]) {
+#app-mount .guilds_a4d4d9 [class*=listItem]:not([class*=listItemWrapper]) {
     margin:0px 5px;
 }
 #app-mount .winButton_a934d8 {
